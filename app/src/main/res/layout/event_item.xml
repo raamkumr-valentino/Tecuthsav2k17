@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:elevation="8dp"
+    android:layout_gravity="center"
+    app:cardCornerRadius="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    app:cardBackgroundColor="@android:color/holo_orange_light"
+    android:clickable="true"
+    android:fitsSystemWindows="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/event_img_id"
+            android:contentDescription="@string/description"
+            android:src="@drawable/src"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/cardview_light_background"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:id="@+id/event_name_id"
+            android:layout_below="@+id/event_img_id"
+            android:text="@string/event_name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="24dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:fontFamily="monospace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/team_size"
+            android:text="@string/teamsize"
+            android:fontFamily="monospace"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/event_name_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="15dp"
+            android:paddingEnd="10dp"
+            android:textColor="#ffffff"
+            android:paddingTop="8dp" />
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:id="@+id/setteam_size"
+            android:text="@string/teamsize"
+            android:textSize="16sp"
+            android:fontFamily="monospace"
+            android:layout_toEndOf="@+id/team_size"
+            android:layout_below="@+id/event_name_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="15dp"
+            android:paddingEnd="10dp"
+            android:textColor="#ffffff"
+            android:paddingTop="8dp" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

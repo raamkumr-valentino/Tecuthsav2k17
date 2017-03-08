@@ -1,0 +1,32 @@
+<resources>
+    <string name="tce">Thiagarajar College of Engineering</string>
+    <string name="date">March 17,18 -2017</string>
+    <string name="app_name">Tecuthsav\'17</string>
+    <string name="welcome">Welcome to The Grand Event</string>
+    <string name="dept_name">DEPT_NAME</string>
+    <string name="event">Event Description</string>
+    <string name="event_name">Event Name</string>
+    <string name="register">Register</string>
+    <string name="mode">Mode</string>
+    <string name="venue">Venue</string>
+    <string name="description">Description</string>
+    <string name="teamsize">Team Size</string>
+    <string name="accomodation">Accommodation</string>
+    <string name="contactUS">Contact-us</string>
+    <string name="rules">Rules</string>
+
+    <string name="contact_name">Name</string>
+    <string name="contact_phn">Phn_No</string>
+    <string name="contact_email">Email-Id</string>
+
+    <string name="ws_title">Title</string>
+    <string name="ws_fees">Fees</string>
+    <string name="ws_desc">Description</string>
+    <string name="ws_person">Resource Person</string>
+    <string name="ws_dept">Department</string>
+    //Event Coordinator
+    <string name="coordinator">Event Coordinator</string>
+    <string name="coord_name">Name</string>
+    <string name="coord_phn">Phn No</string>
+    <string name="cancel">cancel</string>
+</resources>

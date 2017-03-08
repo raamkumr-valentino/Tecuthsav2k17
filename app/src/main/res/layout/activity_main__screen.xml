@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <include
+        layout="@layout/toolbar"/>
+    <RelativeLayout
+        android:id="@+id/activity_main__screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.edu.tce.tecuthsav17.activity.Main_Screen">
+    <GridView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/grid_id"
+        android:layout_margin="5dp"
+        android:columnWidth="60dp"
+        android:drawSelectorOnTop="true"
+        android:gravity="center"
+        android:numColumns="1"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp"
+        android:focusable="true"
+        android:clickable="true"/>
+</RelativeLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
