@@ -1,2 +1,2 @@
-# Tecuthsavk17
+# Tecuthsav2k17
 This Tecuthsav Android Application is developed for promoting,showing the list of events and can also register the events which are organized different departments in Thiagarajar College of Engineering for the Tecuthsav Event Mela held on March 17 and 18.. by using this app we can see various events like event details,coordinator contacts,rules and descriptions for the particular event..
